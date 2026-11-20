@@ -1,0 +1,5 @@
+devops-cicd-project/
+│
+├── index.html
+├── Dockerfile
+└── Jenkinsfile
