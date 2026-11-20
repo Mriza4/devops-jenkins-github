@@ -6,3 +6,9 @@ COPY index.html /usr/share/nginx/html/index.html
 EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
+
+devops-cicd-project/
+│
+├── index.html
+├── Dockerfile
+└── Jenkinsfile
