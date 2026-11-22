@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'YOUR_DOCKERHUB_USERNAME/devops-app'
+        DOCKER_IMAGE = 'rizamohamed456/devops-app'
     }
 
     triggers {
@@ -15,7 +15,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_GITHUB_USERNAME/devops-cicd-project.git'
+                    url: 'https://github.com/Mriza4/devops-cicd-project.git'
             }
         }
 
